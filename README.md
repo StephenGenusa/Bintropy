@@ -1,7 +1,5 @@
 # Bintropy
 
-See "Using Entropy Analysis to Find Encrypted and Packed Malware"
-
 Author : Kanimozhi Murugan
 
 Bin entropy calculation using statistical test suite based on Discrete fourier transform of the sequence. The purpose is to detect the repetitive patterns that are near to each other in the sequence which would indicate a deviation from the assumption of randomness.
@@ -11,6 +9,8 @@ Malware detection by entropy - ascii entropy and binary entropy
 Bin Entropy calculated based on 'Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications' published by National Institute of Standards and Technology, U.S Department of Commerce
 
 Source : http://csrc.nist.gov/groups/ST/toolkit/rng/documents/SP800-22rev1a.pdf
+
+See "Using Entropy Analysis to Find Encrypted and Packed Malware" by Lyda Sparta and James Hamrock
 
 ----------
     FFT - scipy.fftpack
